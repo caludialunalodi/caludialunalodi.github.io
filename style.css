@@ -1,0 +1,126 @@
+body{
+    min-height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #f8eeee;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    max-width:400px;
+    height:90vh;
+    margin-bottom:auto;
+    margin:30px 0 30px 30px;
+    padding:10px;
+    background-color: #dbd2d2;
+    border-radius:40px 0px 0px 40px;
+}
+
+.sidebar img {
+    border-radius: 40px 0 0 0;
+    margin: 5px;
+    
+}
+
+.sidebar > h1{
+    text-align:center;
+    margin:5% 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.subtitle{
+    box-shadow: 3px 3px 6px #000000;
+    background-color: #999;
+    text-align:center;
+    border-radius: 20px;
+    padding: 1.5%;
+    margin:10px;
+    transition: .2s;
+}
+
+.subtitle:hover {
+    box-shadow: 0px 0px 0px #000000;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.subtitle > h2{
+    color:white;
+    font-size: 19px;
+}
+
+.subtitle ~ p, .subtitle ~ .list{
+    margin: 1% 10%;
+}
+
+.subtitle + p, .subtitle + .list{
+    margin-top: 5%;
+}
+
+.list > ul > li{
+    margin: 1% 15%;
+}
+
+.rightside{
+    margin:30px 0;
+    padding: 0;
+}
+
+.title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6em;
+    border-bottom:black solid thick;
+    padding: 0 10px 10px 10px;
+}
+
+.rightside > .cajaTexto{
+    margin-top:2%;
+    border-left: black solid thin;
+    margin-left:2%;
+}
+
+.rightside > .cajaTexto > h2{
+    margin-left:2%;
+}
+
+.rightside > .cajaTexto > p{
+    margin-top:.5%;
+    margin-left:4%;
+}
+
+#listaDatos {
+    display: none;
+    margin: 0 10px;
+   
+}
+
+#listaConocimientos {
+    display: none;
+    margin: 0 10px;
+}
+
+#listaExperiencia {
+    display: none;
+    margin: 0 10px;
+}
+
+ul {
+    margin: 50px 20px 150px 20px;
+}
+
+li {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.3em;
+    margin: 10px;
+}
+
+.list {
+    margin: 50px;
+}
